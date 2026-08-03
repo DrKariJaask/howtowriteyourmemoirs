@@ -6,7 +6,7 @@
 
 # Purpose
 
-This document defines the technical architecture of **HowToWriteYourMemoir.com**.
+This document defines the technical architecture of **HowToWriteYourMemoirs.com**.
 
 Its purpose is to provide a scalable, maintainable, secure, and high-performance technical foundation that supports the long-term objectives of the website.
 
