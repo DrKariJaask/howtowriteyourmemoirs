@@ -6,7 +6,7 @@
 
 # Purpose
 
-This document defines the content strategy for **HowToWriteYourMemoir.com**.
+This document defines the content strategy for **HowToWriteYourMemoirs.com**.
 
 Its purpose is to ensure that all content published on the website supports the website objectives, serves the needs of visitors, and contributes to a consistent, high-quality learning experience.
 
