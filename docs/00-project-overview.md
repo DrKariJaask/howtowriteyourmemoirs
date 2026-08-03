@@ -17,7 +17,7 @@ The repository serves as the project's permanent documentation, recording both t
 
 # Website
 
-HowToWriteYourMemoir.com is being developed to help people transform their life experiences into well-written memoirs.
+HowToWriteYourMemoirs.com is being developed to help people transform their life experiences into well-written memoirs.
 
 The website aims to provide practical guidance covering the complete memoir-writing process, including:
 
