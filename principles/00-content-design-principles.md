@@ -6,7 +6,7 @@ Version: 1.0
 
 # Purpose
 
-This document defines the core principles used when designing content for HowToWriteYourMemoir.com.
+This document defines the core principles used when designing content for HowToWriteYourMemoirs.com.
 
 These principles guide the planning and creation of every page published on the website.
 
