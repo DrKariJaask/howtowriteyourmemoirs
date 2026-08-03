@@ -42,7 +42,7 @@ Candidate domains should be evaluated against the following criteria:
 
 # Selected Domain
 
-**HowToWriteYourMemoir.com**
+**HowToWriteYourMemoirs.com**
 
 ---
 
