@@ -6,7 +6,7 @@ Version: 1.0
 
 # Purpose
 
-This document defines the visual and stylistic principles for HowToWriteYourMemoir.com.
+This document defines the visual and stylistic principles for HowToWriteYourMemoirs.com.
 
 Its purpose is to create a consistent, recognizable, and user-friendly experience across the entire website.
 
