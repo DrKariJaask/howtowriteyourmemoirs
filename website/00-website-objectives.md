@@ -6,7 +6,7 @@
 
 # Purpose
 
-This document defines the objectives of **HowToWriteYourMemoir.com**.
+This document defines the objectives of **HowToWriteYourMemoirs.com**.
 
 Its purpose is to guide all future decisions regarding content, design, functionality, and website development. Every significant feature, page, and improvement should support one or more of these objectives.
 
