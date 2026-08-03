@@ -1,0 +1,36 @@
+---
+import { getCollection } from "astro:content";
+import BaseLayout from "../layouts/BaseLayout.astro";
+
+const articles = await getCollection("articles");
+
+const title = "Memoir Writing Articles";
+const description =
+  "Browse all memoir writing articles published on HowToWriteYourMemoir.com.";
+---
+
+<BaseLayout title={title} description={description}>
+  <article>
+    <p><a href="/">← Back to home</a></p>
+
+    <h1>Memoir Writing Articles</h1>
+
+    <p>
+      Start with the beginner's guide or explore individual topics below.
+    </p>
+
+    <ul>
+      {
+        articles.map((article) => (
+          <li>
+            <a href={`/${article.data.slug}/`}>
+              {article.data.title}
+            </a>
+            <br />
+            <small>{article.data.description}</small>
+          </li>
+        ))
+      }
+    </ul>
+  </article>
+</BaseLayout>

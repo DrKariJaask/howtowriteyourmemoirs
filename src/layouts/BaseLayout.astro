@@ -1,0 +1,146 @@
+---
+interface Props {
+  title: string;
+  description: string;
+}
+
+const { title, description } = Astro.props;
+const canonicalURL = new URL(Astro.url.pathname, Astro.site);
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <meta name="description" content={description} />
+    <title>{title}</title>
+
+    <link rel="canonical" href={canonicalURL} />
+    <link rel="icon" type="image/png" href="/favicon.png" />
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={description} />
+    <meta property="og:url" content={canonicalURL} />
+    <meta property="og:site_name" content="HowToWriteYourMemoir.com" />
+
+    <!-- Twitter / X -->
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content={title} />
+    <meta name="twitter:description" content={description} />
+
+    <style>
+      body {
+        font-family: system-ui, sans-serif;
+        max-width: 760px;
+        margin: 0 auto;
+        padding: 2rem;
+        line-height: 1.7;
+        color: #222;
+      }
+
+      nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 2rem;
+        margin-bottom: 3rem;
+        padding-bottom: 1rem;
+        border-bottom: 1px solid #ddd;
+      }
+
+      .site-name {
+        font-weight: 700;
+        white-space: nowrap;
+      }
+
+      .nav-links {
+        display: flex;
+        align-items: center;
+        gap: 1.25rem;
+      }
+
+      nav a {
+        color: #222;
+        text-decoration: none;
+        font-weight: 600;
+      }
+
+      nav a:hover {
+        text-decoration: underline;
+      }
+
+      article {
+        margin-bottom: 4rem;
+      }
+
+      footer {
+        margin-top: 4rem;
+        padding-top: 2rem;
+        border-top: 1px solid #ddd;
+        color: #666;
+        font-size: 0.9rem;
+      }
+
+      h1 {
+        margin-top: 0;
+      }
+
+      @media (max-width: 640px) {
+        body {
+          padding: 1.25rem;
+        }
+
+        nav {
+          align-items: flex-start;
+          flex-direction: column;
+          gap: 0.75rem;
+        }
+
+        .nav-links {
+          flex-wrap: wrap;
+          gap: 1rem;
+        }
+      }
+    </style>
+  </head>
+
+  <body>
+    <nav aria-label="Main navigation">
+      <a class="site-name" href="/">HowToWriteYourMemoir</a>
+
+      <div class="nav-links">
+  <a href="/articles/">Articles</a>
+  <a href="/about/">About</a>
+  <a href="/contact/">Contact</a>
+  <a href="/book/">Get the Book</a>
+</div>
+    </nav>
+
+    <main>
+      <slot />
+    </main>
+
+
+
+    <footer>
+  <p>© 2026 HowToWriteYourMemoir.com</p>
+
+  <p>
+    <p>
+  <a href="/">Home</a> ·
+  <a href="/articles/">Articles</a> ·
+  <a href="/about/">About</a> ·
+  <a href="/contact/">Contact</a> ·
+  <a href="/privacy/">Privacy</a> ·
+  <a href="/cookies/">Cookies</a> ·
+  <a href="/terms/">Terms</a> ·
+  <a href="/disclaimer/">Disclaimer</a> ·
+  <a href="/book/">Get the Book</a>
+</p>
+  </p>
+</footer>
+  </body>
+</html>

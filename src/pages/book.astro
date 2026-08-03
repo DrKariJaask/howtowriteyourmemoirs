@@ -1,0 +1,114 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+
+const title = "How to Write Your Memoir, Hollywood Style";
+const description =
+  "Discover a practical storytelling system for turning your life experiences into a compelling memoir.";
+
+const amazonUrl = "https://www.amazon.com/dp/B0GLR2TTDP";
+---
+
+<BaseLayout title={title} description={description}>
+  <article>
+    <p><a href="/">← Back to home</a></p>
+
+    <h1>How to Write Your Memoir, Hollywood Style</h1>
+<p>
+  <img
+    src="/images/book-cover.jpg"
+    alt="Cover of How to Write Your Memoir, Hollywood Style"
+    style="max-width: 300px; width: 100%; height: auto; border-radius: 8px;"
+  />
+</p>
+
+    <p>
+      Your life contains decades of people, places, decisions, conflicts, and
+      turning points. The challenge is not finding enough material. It is
+      choosing what belongs in the story and shaping it into a book that readers
+      want to continue reading.
+    </p>
+
+    <p>
+      <em>How to Write Your Memoir, Hollywood Style</em> presents a practical
+      method for applying proven storytelling principles to true life
+      experiences.
+    </p>
+
+    <p>
+      <a
+        href={amazonUrl}
+        target="_blank"
+        rel="noopener noreferrer"
+        class="buy-button"
+      >
+        Buy the Book on Amazon
+      </a>
+    </p>
+
+    <h2>Who Is This Book For?</h2>
+
+    <p>The book is intended for:</p>
+
+    <ul>
+      <li>people writing their first memoir</li>
+      <li>writers struggling to organize a lifetime of memories</li>
+      <li>families preserving personal histories</li>
+      <li>professional memoir writers and ghostwriters</li>
+      <li>anyone who wants to tell a true story more effectively</li>
+    </ul>
+
+    <h2>What You Will Learn</h2>
+
+    <ul>
+      <li>how to choose the right story from your life</li>
+      <li>how to identify the central theme of your memoir</li>
+      <li>how to structure real experiences into a compelling narrative</li>
+      <li>how to create scenes, tension, and emotional momentum</li>
+      <li>how to decide what to include and what to leave out</li>
+      <li>how to move from an idea toward a finished manuscript</li>
+    </ul>
+
+    <h2>A Complete System</h2>
+
+    <p>
+      The articles on this website answer individual memoir-writing questions.
+      The book brings the process together into one complete system, with
+      practical guidance that can be followed from the first idea to the
+      finished manuscript.
+    </p>
+
+    <h2>Ready to Begin?</h2>
+
+    <p>
+      Get the complete step-by-step system and start transforming your memories
+      into a memoir.
+    </p>
+
+    <p>
+      <a
+        href={amazonUrl}
+        target="_blank"
+        rel="noopener noreferrer"
+        class="buy-button"
+      >
+        Buy the Book on Amazon
+      </a>
+    </p>
+  </article>
+
+  <style>
+    .buy-button {
+      display: inline-block;
+      padding: 0.8rem 1.2rem;
+      border-radius: 0.35rem;
+      background: #222;
+      color: #fff;
+      font-weight: 700;
+      text-decoration: none;
+    }
+
+    .buy-button:hover {
+      background: #444;
+    }
+  </style>
+</BaseLayout>
