@@ -6,7 +6,7 @@
 
 # Purpose
 
-This document defines the editorial standards for **HowToWriteYourMemoir.com**.
+This document defines the editorial standards for **HowToWriteYourMemoirs.com**.
 
 Its purpose is to ensure that all published content is consistent, trustworthy, easy to understand, and aligned with the website's objectives and brand strategy.
 
