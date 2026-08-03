@@ -6,7 +6,7 @@
 
 # Purpose
 
-This document defines the brand strategy for **HowToWriteYourMemoir.com**.
+This document defines the brand strategy for **HowToWriteYourMemoirs.com**.
 
 The purpose of the brand is to guide every aspect of the website, including content, visual identity, tone of voice, user experience, and future products and services.
 
@@ -49,7 +49,7 @@ These values should be reflected in every page published on the website.
 
 # Brand Positioning
 
-**HowToWriteYourMemoir.com** is an educational resource dedicated exclusively to memoir writing.
+**HowToWriteYourMemoirs.com** is an educational resource dedicated exclusively to memoir writing.
 
 Rather than focusing on writing in general, the website specializes in helping people tell true life stories in a compelling and meaningful way.
 
