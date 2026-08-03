@@ -6,7 +6,7 @@ Version: 1.0
 
 # Purpose
 
-This article serves as the cornerstone of HowToWriteYourMemoir.com.
+This article serves as the cornerstone of HowToWriteYourMemoirs.com.
 
 It is the primary resource for first-time visitors and provides a complete introduction to memoir writing.
 
