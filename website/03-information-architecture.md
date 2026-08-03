@@ -6,7 +6,7 @@ Version: 1.0
 
 # Purpose
 
-This document defines the overall information architecture of HowToWriteYourMemoir.com.
+This document defines the overall information architecture of HowToWriteYourMemoirs.com.
 
 Its purpose is to organize the website into a logical, scalable, and user-centered structure that helps visitors quickly find the information they need while supporting future growth.
 
