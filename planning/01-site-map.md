@@ -6,7 +6,7 @@ Version: 1.0
 
 # Purpose
 
-This document defines the initial structure of HowToWriteYourMemoir.com.
+This document defines the initial structure of HowToWriteYourMemoirs.com.
 
 The site map establishes the main sections of the website and the role of each section.
 
