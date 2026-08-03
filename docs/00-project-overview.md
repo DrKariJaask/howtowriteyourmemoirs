@@ -8,7 +8,7 @@ Version: 1.0
 
 This repository documents two parallel activities:
 
-1. The development of **HowToWriteYourMemoir.com**, an educational website dedicated to memoir writing.
+1. The development of **HowToWriteYourMemoirs.com**, an educational website dedicated to memoir writing.
 2. A longitudinal research project that records how website development and optimization relate to changes in online visibility over time.
 
 The repository serves as the project's permanent documentation, recording both the website development process and the associated research activities.
