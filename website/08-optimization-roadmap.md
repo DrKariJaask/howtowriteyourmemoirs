@@ -6,7 +6,7 @@
 
 # Purpose
 
-This document serves as the development roadmap for **HowToWriteYourMemoir.com**.
+This document serves as the development roadmap for **HowToWriteYourMemoirs.com**.
 
 It records optimization ideas, recommendations, and planned improvements before they are implemented. It provides a centralized view of future work and helps prioritize development efforts.
 
