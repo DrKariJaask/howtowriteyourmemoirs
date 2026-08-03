@@ -1,10 +1,10 @@
-# HowToWriteYourMemoir.com
+# HowToWriteYourMemoirs.com
 
-This repository documents the development of **HowToWriteYourMemoir.com** together with a longitudinal research project investigating how website development and optimization influence online visibility over time.
+This repository documents the development of **HowToWriteYourMemoirs.com** together with a longitudinal research project investigating how website development and optimization influence online visibility over time.
 
 ## About
 
-HowToWriteYourMemoir.com is an educational website designed to help people write meaningful memoirs.
+HowToWriteYourMemoirs.com is an educational website designed to help people write meaningful memoirs.
 
 In parallel with the website development, this repository documents the research process, including the research protocol, hypotheses, experimental design, measurements, observations, and results.
 
