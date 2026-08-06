@@ -30,11 +30,11 @@ Design priorities:
 
 Primary logo:
 
-HowToWriteYourMemoir
-
-The baseline website uses an identical logo with only the domain name changed to:
-
 HowToWriteYourMemoirs
+
+The Taregtlytics website uses an identical logo with only the domain name changed to:
+
+HowToWriteYourMemoir
 
 ---
 
