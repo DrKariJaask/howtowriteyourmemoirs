@@ -1,35 +1,235 @@
 ---
 import BaseLayout from "../layouts/BaseLayout.astro";
 
-const title = "How to Write Your Memoirs";
+const title = "How to Write Your Memoir";
 const description =
-  "Learn practical techniques for planning, writing, editing, and publishing your personal memoirs.";
+  "Practical guidance for turning your life experiences into a compelling memoir.";
 ---
 
 <BaseLayout title={title} description={description}>
-  <h1>How to Write Your Memoirs</h1>
+  <section class="hero">
+    <p class="eyebrow">Memoir Writing Made Practical</p>
 
-  <p>
-    Learn practical techniques for turning personal experiences into engaging memoirs that readers will enjoy.
-  </p>
+    <h1>Turn Your Life Experiences Into a Story Worth Reading</h1>
 
-  <p>
-    Whether you are just beginning or already drafting your book, this website provides step-by-step guidance for choosing your story, organizing your memories, writing confidently, revising your manuscript, and exploring publishing options.
-  </p>
+    <p class="hero-intro">
+      Learn how to choose the right story, plan your memoir, write with clarity,
+      revise your manuscript, and explore your publishing options.
+    </p>
 
-  <h2>Getting Started</h2>
+    <div class="hero-actions">
+      <a class="button" href="/how-to-write-a-memoir/">
+        Start Writing
+      </a>
 
-  <ol>
-    <li>
+      <a class="button button-secondary" href="/book/">
+        Get the Book
+      </a>
+    </div>
+  </section>
+
+  <section aria-labelledby="what-you-will-learn">
+    <h2 id="what-you-will-learn">What You Will Learn</h2>
+
+    <div class="card-grid">
+      <article class="card">
+        <h3>Find Your Story</h3>
+
+        <p>
+          Identify the life experience, theme, or turning point that can carry
+          an entire memoir.
+        </p>
+
+        <p>
+          <a href="/how-to-find-your-memoir-story/">
+            Choose your story →
+          </a>
+        </p>
+      </article>
+
+      <article class="card">
+        <h3>Plan Your Memoir</h3>
+
+        <p>
+          Organize memories into a clear structure that guides readers from the
+          opening scene to the final page.
+        </p>
+
+        <p>
+          <a href="/how-to-structure-a-memoir/">
+            Plan the structure →
+          </a>
+        </p>
+      </article>
+
+      <article class="card">
+        <h3>Write and Publish</h3>
+
+        <p>
+          Build a writing routine, revise your manuscript, and choose a
+          publishing path that fits your goals.
+        </p>
+
+        <p>
+          <a href="/how-to-start-writing-your-memoir/">
+            Begin writing →
+          </a>
+        </p>
+      </article>
+    </div>
+  </section>
+
+  <section aria-labelledby="start-here">
+    <h2 id="start-here">Start Here</h2>
+
+    <div class="start-list">
       <a href="/how-to-write-a-memoir/">
-        A Beginner's Guide to Writing a Memoir
+        <span>01</span>
+        <strong>How to Write a Memoir: A Complete Beginner's Guide</strong>
       </a>
-    </li>
 
-    <li>
       <a href="/how-to-find-your-memoir-story/">
-        Choosing the Best Story for Your Memoir
+        <span>02</span>
+        <strong>How to Find the Right Story for Your Memoir</strong>
       </a>
-    </li>
-  </ol>
+
+      <a href="/how-to-structure-a-memoir/">
+        <span>03</span>
+        <strong>How to Structure a Memoir</strong>
+      </a>
+    </div>
+  </section>
+
+  <section class="book-promo" aria-labelledby="book-heading">
+    <div>
+      <p class="eyebrow">Go Deeper</p>
+
+      <h2 id="book-heading">A Complete Method for Writing Your Memoir</h2>
+
+      <p>
+        <em>How to Write Your Memoir, Hollywood Style</em> connects the
+        individual stages of memoir writing into one practical process.
+      </p>
+
+      <a class="button" href="/book/">
+        Explore the Book
+      </a>
+    </div>
+
+    <img
+      src="/images/book-cover.jpg"
+      alt="Cover of How to Write Your Memoir, Hollywood Style"
+      width="300"
+      height="450"
+    />
+  </section>
+
+  <style>
+    .hero {
+      padding: 1rem 0 3.5rem;
+      text-align: left;
+    }
+
+    .hero h1 {
+      max-width: 760px;
+      margin-right: 0;
+      margin-left: 0;
+    }
+
+    .eyebrow {
+      margin-bottom: 0.8rem;
+      color: var(--gold-dark);
+      font-size: 0.82rem;
+      font-weight: 800;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+    }
+
+    .hero-intro {
+      max-width: 700px;
+      margin-right: 0;
+      margin-bottom: 2rem;
+      margin-left: 0;
+      color: var(--muted);
+      font-size: 1.15rem;
+    }
+
+    .hero-actions {
+      display: flex;
+      justify-content: flex-start;
+      gap: 1rem;
+      flex-wrap: wrap;
+    }
+
+    .start-list {
+      display: grid;
+      gap: 0.85rem;
+      margin: 1.5rem 0 3rem;
+    }
+
+    .start-list a {
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+      padding: 1rem 1.1rem;
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      background: var(--white);
+      text-decoration: none;
+    }
+
+    .start-list a:hover {
+      border-color: var(--gold);
+      background: var(--surface);
+    }
+
+    .start-list span {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 2.4rem;
+      height: 2.4rem;
+      flex-shrink: 0;
+      border-radius: 50%;
+      background: var(--navy);
+      color: var(--white);
+      font-size: 0.8rem;
+      font-weight: 800;
+    }
+
+    .start-list strong {
+      color: var(--navy);
+    }
+
+    .book-promo {
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) 210px;
+      gap: 2.5rem;
+      align-items: center;
+      margin: 4rem 0 1rem;
+      padding: 2rem;
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      background: var(--surface);
+    }
+
+    .book-promo h2 {
+      margin-top: 0;
+    }
+
+    .book-promo img {
+      width: 100%;
+      border-radius: 8px;
+    }
+
+    @media (max-width: 700px) {
+      .book-promo {
+        grid-template-columns: 1fr;
+      }
+
+      .book-promo img {
+        max-width: 220px;
+      }
+    }
+  </style>
 </BaseLayout>
